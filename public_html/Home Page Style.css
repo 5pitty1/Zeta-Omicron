@@ -1,0 +1,132 @@
+/*-----------------------------------------------------------------------*/
+/*                             CSS RESET                                 */
+/*-----------------------------------------------------------------------*/
+
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) *
+http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p,
+blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em,
+img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u,
+i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table,
+caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;	border-spacing: 0;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                            Main Style                                 */
+/*-----------------------------------------------------------------------*/
+
+html {
+    background: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                              Header                                   */
+/*-----------------------------------------------------------------------*/
+
+.home #top {
+    position: relative;
+}
+/*#top{
+    background-image: url('Mind Over Matter.jpg');
+    background-size: contain;
+    height: 200vh;
+
+}*/
+
+#header_wrapper_fixed {
+    width: 880px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#site_logo{
+    float: left;
+}
+
+#site_logo a{
+    font-family: "Calibri",sans-serif;
+    color: white;
+    font-size: 30px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+#site_logo, #site_logo a {
+    width: 170px;
+    height: 69px;
+    display: block;
+}
+
+/*-----------------------------------------------------------------------*/
+/*                          Navigation Style                             */
+/*-----------------------------------------------------------------------*/
+
+#nav_menu {
+    width: 100%;
+    height: 69px;
+    line-height: 69px;
+    background: rgba(0,0,0,.8);
+    z-index: 9;
+    clear: both;
+    position: fixed;
+}
+
+#nav_container_fixed {
+    float: right;
+}
+
+#nav_container_fixed ul li {
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+
+#nav_container_fixed a {
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    height: 100%;
+    font-weight: bolder;
+}
+
+#nav_container_fixed li a:hover {
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+    color: #7aaaca;
+}
