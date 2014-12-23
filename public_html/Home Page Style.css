@@ -59,12 +59,6 @@ a {
 .home #top {
     position: relative;
 }
-/*#top{
-    background-image: url('Mind Over Matter.jpg');
-    background-size: contain;
-    height: 200vh;
-
-}*/
 
 #header_wrapper_fixed {
     width: 880px;
@@ -73,7 +67,8 @@ a {
 }
 
 #site_logo{
-    float: left;
+    position: fixed;
+    left: 20px;
 }
 
 #site_logo a{
@@ -129,4 +124,18 @@ a {
     transition-duration: .2s;
     transition-timing-function: ease;
     color: #7aaaca;
+}
+
+#searchbox{
+    position: fixed;
+    right: 200px;
+    top: 23px;
+    border: none;
+    width: 180px;
+    height: 20px;
+}
+
+#searchbutton {
+    position: fixed;
+    right: 100px;
 }
