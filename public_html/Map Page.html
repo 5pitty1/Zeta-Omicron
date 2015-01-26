@@ -9,7 +9,12 @@
     <link rel="icon" href="Images/ZO%20Icon%20-%20Alone.ico">
     <link href='http://fonts.googleapis.com/css?family=Lobster Two|Oxygen:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../vendor/font-awesome-4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Home Page Style.css" type="text/css"/>
+    <link rel="stylesheet" href="Global%20Style.css" type="text/css"/>
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPSmne53aXD4IPxdEBhHY3qF4FeY6_Q4w">
+    </script>
+    <script type="text/javascript" src="googlemap.js"></script>
+    <link href="Map%20Page%20Style.css">
 </head>
 <body class="home" style="display: block">
 <header id="side">
@@ -27,13 +32,16 @@
                         <a href="">Chapter Finder</a>
                     </li>
                     <li>
-                        <a href="">Map</a>
+                        <a href="Map%20Page.html" class="active">Map</a>
                     </li>
                     <li>
                         <a href="">Resources</a>
                     </li>
                     <li>
                         <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a id="join" href="">Join Us</a>
                     </li>
                 </ul>
             </nav>
@@ -50,9 +58,52 @@
     </div>
 </header>
 <div id="body_wrapper">
-
+    <div id="map-canvas" style="height: 100%;"></div>
 </div>
-<section>
-</section>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+<!-- Version 1
+<nav id="nav_container_fixed">
+                <ul id="nav_choices">
+                    <li>
+                        <a href="">
+                            <input type="button" value="Home">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <input type="button" value="Chapter Finder">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Map%20Page.html" class="active">
+                            <input type="button" value="Map">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <input type="button" value="Resources">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <input type="button" value="Contact">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="join" href="">
+                            <input type="button" value="Join Us">
+                        </a>
+                    </li>
+                </ul>
+            </nav>-->

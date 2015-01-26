@@ -96,7 +96,7 @@ a {
 #nav_choices li {
 }
 
-#nav_choices li a {
+#nav_choices li a{
     color: #ffffff;
     text-transform: uppercase;
     -webkit-transition: all .3s ease;
@@ -106,12 +106,31 @@ a {
     transition: all .3s ease;
 }
 
-#nav_choices li.active {
-
+#nav_choices li a.active {
+    color: #0ad5ff;
 }
 
 #nav_choices li a:hover {
     color: #0ad5ff;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+/*                            Join Us Button                             */
+/*-----------------------------------------------------------------------*/
+
+#join {
+    color: #ffffff;
+    font-size: 18px !important;
+    background-color: #2f3835;
+    padding: 9px 50px;
+    line-height: 70px;
+    border-radius: 5px;
+}
+
+#join:hover {
+    background-color: #3c3d3c;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -141,6 +160,30 @@ a {
     margin-right: 9px;
     color: #B6B6B6;
     font-size: 40px;
+    height: 33.4px;
+    width: 33px;
+    border-radius: 10px;
+    line-height: 34px;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+#facebook a:hover {
+    color: #3B5998;
+    background-color: #ffffff;
+}
+
+#twitter a:hover {
+    color: #55ACEE;
+    background-color: #ffffff;
+}
+
+#github a:hover {
+    color: #ffffff;
+    background-color: #000000;
 }
 
 /*-----------------------------------------------------------------------*/
@@ -153,3 +196,68 @@ a {
     overflow: hidden;
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    Version 1
+#nav_choices {
+    padding-top: 40px;
+}
+
+#nav_choices li {
+}
+
+#nav_choices li a input{
+    font-family: "Oxygen", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #424242;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+    border: none;
+    width: 100%;
+    height: 65px;
+    border: solid #000000 1px;
+    border-left: none;
+    border-right: none;
+}
+
+#nav_choices li a input.active {
+    color: #0ad5ff;
+}
+
+#nav_choices li a input:hover {
+    color: #0ad5ff;
+    background-color: #4e4e4e;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+/*                            Join Us Button                             */
+/*-----------------------------------------------------------------------*/
+/*
+#join input{
+    background-color: #6b6b6b !important;
+}
+
+#join input:hover {
+
+}
+*/
