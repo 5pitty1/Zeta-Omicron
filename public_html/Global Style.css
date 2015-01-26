@@ -161,29 +161,33 @@ a {
     color: #B6B6B6;
     font-size: 40px;
     height: 33.4px;
-    width: 33px;
+    width: 32px;
     border-radius: 10px;
     line-height: 34px;
-    -webkit-transition: color .2s;
-    -moz-transition: color .2s;
-    -ms-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
+
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 #facebook a:hover {
     color: #3B5998;
     background-color: #ffffff;
+    transform: rotate(360deg);
 }
 
 #twitter a:hover {
     color: #55ACEE;
     background-color: #ffffff;
+    transform: rotate(360deg);
 }
 
 #github a:hover {
     color: #ffffff;
     background-color: #000000;
+    transform: rotate(360deg);
 }
 
 /*-----------------------------------------------------------------------*/
