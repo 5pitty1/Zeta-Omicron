@@ -14,7 +14,7 @@ function initialize() {
     });
 
     var KleinOakContent = '<div id="content">'+
-        '<h1 id="firstHeading" class="heading">Klein Oak High School</h1>'+
+        '<h1 id="firstHeading" class="heading"><b>Klein Oak High School</b></h1>'+
         '<div class="bodyContent">'+
         '<p>The founding school of Zeta Omicron.</p>'+
         '<p>School Website: <a href="http://kleinoak.kleinisd.net/">'+

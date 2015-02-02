@@ -149,7 +149,7 @@ a {
     display: block;
     height: 50px;
     position: absolute;
-    bottom: 100px;
+    bottom: 10vh;
     left: 0;
     width: 100%;
 }
