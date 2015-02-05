@@ -180,22 +180,23 @@ a {
     transition: all .4s ease-in-out;
 }
 
+.icon a:hover {
+    transform: rotate(360deg);
+}
+
 #facebook a:hover {
     color: #3B5998;
     background-color: #ffffff;
-    transform: rotate(360deg);
 }
 
 #twitter a:hover {
     color: #55ACEE;
     background-color: #ffffff;
-    transform: rotate(360deg);
 }
 
 #github a:hover {
     color: #ffffff;
     background-color: #000000;
-    transform: rotate(360deg);
 }
 
 /*-----------------------------------------------------------------------*/
