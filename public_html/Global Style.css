@@ -49,6 +49,10 @@ html {
     background-color: #181918;
 }
 
+*:focus {
+    outline: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -71,11 +75,11 @@ a {
     color: #ffffff;
     font-size: 4.5vw;
     font-family: "Lobster Two", sans-serif;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
 }
 
 #site_logo:hover {
@@ -97,18 +101,16 @@ a {
     color: #ffffff;
     background-color: #424242;
     text-transform: uppercase;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    -webkit-transition: color, background-color .3s ease;
+    -moz-transition: color, background-color .3s ease;
+    -ms-transition: color, background-color .3s ease;
+    -o-transition: color, background-color .3s ease;
+    transition: color, background-color .3s ease;
 
     border: none;
     width: 100%;
-    height: 5vw;
-    border-bottom: solid #262626 1px;
-    border-left: none;
-    border-right: none;
+    height: 9.3vh;
+    margin-bottom: 1px;
 }
 
 #first {
@@ -170,11 +172,11 @@ a {
     border-radius: .7815vw;
     line-height: 2.657vw;
 
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: -webkit-transform, color, background-color .4s ease-in-out;
+    -moz-transition: -moz-transform, color, background-color .4s ease-in-out;
+    -ms-transition: -ms-transform, color, background-color .4s ease-in-out;
+    -o-transition: -o-transform, color, background-color .4s ease-in-out;
+    transition: transform, -webkit-transform, -moz-transform, -o-transform, color, background-color .4s ease-in-out;
 }
 
 .icon a:hover {
