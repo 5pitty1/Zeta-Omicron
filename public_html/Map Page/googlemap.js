@@ -7,6 +7,8 @@ function initialize() {
 
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
+    /* Klein Oak High School */
+
     var KleinOakMarker = new google.maps.Marker({
         position: new google.maps.LatLng(30.096874,-95.517951),
         animation: google.maps.Animation.DROP,
@@ -20,7 +22,7 @@ function initialize() {
         '<p>School Website: <a href="http://kleinoak.kleinisd.net/">'+
         'http://kleinoak.kleinisd.net/</a></p>'+
         '</div>'+
-        '</div>'
+        '</div>';
 
     var KleinOakInfoWindow = new google.maps.InfoWindow({
         content: KleinOakContent
@@ -29,6 +31,23 @@ function initialize() {
     KleinOakMarker.setMap(map);
     google.maps.event.addListener(KleinOakMarker, 'click', function() {
         KleinOakInfoWindow.open(map,KleinOakMarker);
+    });
+
+    /* Berkeley High School */
+
+    var BerkeleyHSMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(37.867118, -122.271383),
+        animation: google.maps.Animation.DROP,
+        title: "Berkeley High School"
+    });
+
+    var BerkeleyHSInfoWindow = new google.maps.InfoWindow({
+
+    });
+
+    BerkeleyHSMarker.setMap(map);
+    google.maps.event.addListener(BerkeleyHSMarker, 'click', function() {
+        BerkeleyHSInfoWindow.open(map, BerkeleyHSMarker);
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
