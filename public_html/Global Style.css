@@ -124,6 +124,7 @@ a {
 #nav_choices li a input:hover {
     color: #0ad5ff;
     background-color: #2f2f2f;
+    cursor: pointer;
 }
 
 

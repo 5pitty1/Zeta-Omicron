@@ -53,6 +53,6 @@
     color: #a9a9a9;
 }
 
-#messagesubmit:focus {
+#messagesubmit:hover {
     cursor: pointer;
 }
