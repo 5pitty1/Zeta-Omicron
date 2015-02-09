@@ -113,8 +113,8 @@ a {
     margin-bottom: 1px;
 }
 
-#first {
-    border-top: solid #ffffff 5px;
+.dos {
+    background-color: #373737 !important;
 }
 
 #nav_choices li a input.active {
@@ -123,7 +123,7 @@ a {
 
 #nav_choices li a input:hover {
     color: #0ad5ff;
-    background-color: #2f2f2f;
+    background-color: #2f2f2f !important;
     cursor: pointer;
 }
 
