@@ -1,3 +1,19 @@
+
+function choiceSelect(controlDiv, map) {
+
+    //CSS for shadow border
+    var container = document.createElement('div');
+    container.style.width = '100%';
+    container.style.height = '20vh';
+    container.style.backgroundColor = '#ffffff';
+    container.style.boxShadow = '0 0 1vw #868686';
+
+    controlDiv.append(container);
+
+
+}
+
+
 function initialize() {
     var centerlocation = new google.maps.LatLng(40, -100);
     var mapOptions = {
@@ -49,5 +65,12 @@ function initialize() {
     google.maps.event.addListener(BerkeleyHSMarker, 'click', function() {
         BerkeleyHSInfoWindow.open(map, BerkeleyHSMarker);
     });
+
+    var choiceSelectDiv = document.createElement("div");
+    var choiceSelect = new choiceSelect(choiceSelectDiv, map);
+
+    choiceSelectDiv.index = 1;
+    map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(choiceSelectDiv);
+
 }
 google.maps.event.addDomListener(window, 'load', initialize);

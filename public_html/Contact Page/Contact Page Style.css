@@ -1,16 +1,28 @@
 
 #title {
-    text-align: center;
-    color: #ffffff;
-    font-size: 100px;
-    padding-top: 80px;
+    position: relative;
+    font-size: 10vh;
+    height: 20vh;
+    width: 100%;
+    color: #cfcfcf;
     font-family: sans-serif;
+    text-align: center;
+    top: 6vh;
 }
+
+#bigbox {
+    background-color: #2a2a2a;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
 #contactwrapper {
-//    border: red 5px solid;
     width: 900px;
+    padding-top: 30px;
     height: 500px;
-    margin: 40px auto auto;
+    margin: 0 auto 40px auto;
+
 }
 
 .form_boxes {

@@ -46,7 +46,7 @@ table {
 
 html {
     //background: darkgray;
-    background-color: #181918;
+    background-color: #212221;
 }
 
 *:focus {
@@ -99,7 +99,7 @@ a {
     font-weight: bold;
     font-size: 1.5vw;
     color: #ffffff;
-    background-color: #424242;
+    background-color: #4b4b4b;
     text-transform: uppercase;
     -webkit-transition: color, background-color .3s ease;
     -moz-transition: color, background-color .3s ease;
@@ -114,7 +114,7 @@ a {
 }
 
 .dos {
-    background-color: #373737 !important;
+    background-color: #424242 !important;
 }
 
 #nav_choices li a input.active {
@@ -123,10 +123,13 @@ a {
 
 #nav_choices li a input:hover {
     color: #0ad5ff;
-    background-color: #2f2f2f !important;
+    background-color: #3a3a3a !important;
     cursor: pointer;
 }
 
+@media (max-width: 714px) {
+
+}
 
 
 /*-----------------------------------------------------------------------*/
