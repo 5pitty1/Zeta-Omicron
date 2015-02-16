@@ -53,3 +53,14 @@
 /*                                  News                                 */
 /*-----------------------------------------------------------------------*/
 
+#newswrap {
+    margin: 2vh auto 0;
+    background-color: red;
+    width: 90%;
+}
+
+
+
+#image_placeholder img {
+    margin: auto;
+}

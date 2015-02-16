@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Zeta Omicron</title>
@@ -10,7 +11,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster Two|Oxygen:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../../vendor/font-awesome-4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../Global%20Style.css" type="text/css"/>
-    <link rel="stylesheet" href="Contact%20Page%20Style.css">
+    <link rel="stylesheet" href="Resources%20Style.css">
+    <script src="../../vendor/jquery/jquery.js" type="text/javascript"></script>
 </head>
 <body class="home" style="display: block">
 <header id="side">
@@ -38,12 +40,12 @@
                     </li>
                     <li>
                         <a href="../Resources%20Page/Resources%20Page.html">
-                            <input type="button" class="dos" value="Resources">
+                            <input type="button" class="dos active" value="Resources">
                         </a>
                     </li>
                     <li>
-                        <a href="Contact%20Page.html">
-                            <input class="active" type="button" value="Contact">
+                        <a href="../Contact%20Page/Contact%20Page.html">
+                            <input type="button" value="Contact">
                         </a>
                     </li>
                     <li>
@@ -65,27 +67,10 @@
         </div>
     </div>
 </header>
-<div id="body_wrapper">
-    <div id="title"><span>Contact Us</span></div>
-    <div id="bigbox" style="overflow-x: auto">
-        <div id="contactwrapper">
-            <form id="contact" class="form">
-                <div style="float: left;">
-                    <input id="name" class="form_boxes data" placeholder="Name*" type="text" required autofocus="">
-                    <br>
-                    <input id="email" class="form_boxes data" placeholder="Email*" type="email" required>
-                    <br>
-                    <input id="phone" class="form_boxes data" placeholder="Phone" type="text">
-                    <br>
-                    <input id="school" class="form_boxes data" placeholder="School" type="text">
-                </div>
-                <div style="float: right;">
-                    <textarea id="message" class="form_boxes" placeholder="Message" type="text" required></textarea>
-                </div>
-                <br>
-                <input id="messagesubmit" class="form_boxes" value="Submit" type="submit">
-            </form>
-        </div>
+<div id="body_wrapper" style="overflow: scroll;">
+    <div id="title"><span>Resources</span></div>
+    <div id="resources_container">
+        <div class="downloadable"></div>
     </div>
 </div>
 </body>
