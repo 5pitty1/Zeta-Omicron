@@ -46,7 +46,7 @@ table {
 
 html {
     //background: darkgray;
-    background-color: #212221;
+    background-color: #2a2a2a;
 }
 
 *:focus {
@@ -161,7 +161,7 @@ a {
 
 }
 
-@media (min-width: 1085px) {
+@media (min-width: 901px) {
     #social_menu_wrapper {
         margin-top: 30px;
     }
@@ -178,18 +178,18 @@ a {
     }
 }
 
-@media (max-width: 1084px) {
+@media (max-width: 900px) {
     .icon a{
-        font-size: 10vw;
-        height: 8.349vw;
-        width: 8vw;
-        line-height: 8.502vw;
-        margin-top: 10vw;
-        margin-left: 3.002vw;
-        margin-right: 3.002vw;
+        font-size: 8vw;
+        height: 6.678vw;
+        width: 6.4vw;
+        line-height: 6.802vw;
+        margin-top: 3vw;
+        margin-left: 2.402vw;
+        margin-right: 2.402vw;
     }
     #social_menu_wrapper {
-        bottom: 33vh;
+        bottom: 27vh;
     }
 }
 

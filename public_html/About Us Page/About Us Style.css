@@ -6,6 +6,7 @@
     color: #cfcfcf;
     font-family: sans-serif;
     text-align: center;
+    background-color: #212221;
 }
 
 #title span {
@@ -15,7 +16,6 @@
 }
 
 #info_container {
-    background-color: #2a2a2a;
     position: relative;
     width: 100%;
 }
