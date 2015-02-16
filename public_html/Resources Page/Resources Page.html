@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Zeta Omicron</title>
@@ -10,9 +11,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster Two|Oxygen:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../../vendor/font-awesome-4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../Global%20Style.css" type="text/css"/>
-    <link rel="stylesheet" href="Home%20Page%20Style.css">
+    <link rel="stylesheet" href="Resources%20Style.css">
     <script src="../../vendor/jquery/jquery.js" type="text/javascript"></script>
-    <script src="Home%20Page%20Script.js" type="text/javascript"></script>
 </head>
 <body class="home" style="display: block">
 <header id="side">
@@ -25,7 +25,7 @@
                 <ul id="nav_choices">
                     <li>
                         <a href="../Home%20Page/Home%20Page.html">
-                            <input class="active" type="button" value="Home">
+                            <input type="button" value="Home">
                         </a>
                     </li>
                     <li>
@@ -40,7 +40,7 @@
                     </li>
                     <li>
                         <a href="../Resources%20Page/Resources%20Page.html">
-                            <input type="button" class="dos" value="Resources">
+                            <input type="button" class="dos active" value="Resources">
                         </a>
                     </li>
                     <li>
@@ -67,18 +67,10 @@
         </div>
     </div>
 </header>
-<div id="body_wrapper" style="background-color: #2a2a2a">
-    <div class="pagewrap" style="overflow: scroll;">
-  <!--      <div id="load_screen">
-            <div id="logo">
-                <img src="../Images/ZO%20Final%20Logo.png">
-            </div>
-        </div> -->
-        <div id="newswrap">
-            <div class="image_placeholder">
-                <img src="http://placehold.it/900x300">
-            </div>
-        </div>
+<div id="body_wrapper" style="overflow: scroll;">
+    <div id="title"><span>Resources</span></div>
+    <div id="resources_container">
+        <div class="downloadable"></div>
     </div>
 </div>
 </body>
