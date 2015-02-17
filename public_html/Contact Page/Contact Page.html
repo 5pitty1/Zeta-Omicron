@@ -69,21 +69,21 @@
     <div id="title"><span>Contact Us</span></div>
     <div id="bigbox" style="overflow-x: auto">
         <div id="contactwrapper">
-            <form id="contact" class="form">
+            <form method="post" action="Contact.php" id="contact" class="form">
                 <div style="float: left;">
-                    <input id="name" class="form_boxes data" placeholder="Name*" type="text" required autofocus="">
+                    <input id="name" class="form_boxes data" name="name" placeholder="Name*" type="text" required autofocus="">
                     <br>
-                    <input id="email" class="form_boxes data" placeholder="Email*" type="email" required>
+                    <input id="email" class="form_boxes data" name="email" placeholder="Email*" type="email" required>
                     <br>
-                    <input id="phone" class="form_boxes data" placeholder="Phone" type="text">
+                    <input id="phone" class="form_boxes data" name="phone" placeholder="Phone" type="text">
                     <br>
-                    <input id="school" class="form_boxes data" placeholder="School" type="text">
+                    <input id="school" class="form_boxes data" name="school" placeholder="School" type="text">
                 </div>
                 <div style="float: right;">
-                    <textarea id="message" class="form_boxes" placeholder="Message" type="text" required></textarea>
+                    <textarea id="message" class="form_boxes" name="message" placeholder="Message" type="text" required></textarea>
                 </div>
                 <br>
-                <input id="messagesubmit" class="form_boxes" value="Submit" type="submit">
+                <input id="messagesubmit" class="form_boxes" name="submit" value="Submit" type="submit">
             </form>
         </div>
     </div>

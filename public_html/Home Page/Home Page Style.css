@@ -54,13 +54,32 @@
 /*-----------------------------------------------------------------------*/
 
 #newswrap {
-    margin: 2vh auto 0;
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
     background-color: red;
-    width: 90%;
+    width: 250px;
 }
 
 
 
 #image_placeholder img {
     margin: auto;
+}
+
+.news_focus {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+    right: 1vw;
+    background-color: #333333;
+    width: 65vw;
+    height: 90vh;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.news_content div {
+    padding-left: 5vw;
+    text-align: left;
 }
