@@ -60,8 +60,7 @@
     width: 15vw;
 }
 
-.image_placeholder img {
-    margin: auto;
+.iconPic img {
     max-width: 100%;
 }
 
@@ -85,5 +84,6 @@
 }
 
 .news_content img {
+    min-width: 100%;
     max-width: 100%;
 }
