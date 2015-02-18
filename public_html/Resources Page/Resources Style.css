@@ -21,4 +21,12 @@
     position: relative;
     min-height: 80vh;
     height: 100%;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#resources_container span {
+    font-size: 10vw;
+    color: #bfbfbf;
+    font-family: sans-serif;
 }

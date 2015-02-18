@@ -57,14 +57,12 @@
     position: absolute;
     top: 50vh;
     transform: translateY(-50%);
-    background-color: red;
-    width: 250px;
+    width: 15vw;
 }
 
-
-
-#image_placeholder img {
+.image_placeholder img {
     margin: auto;
+    max-width: 100%;
 }
 
 .news_focus {
@@ -80,6 +78,12 @@
 }
 
 .news_content div {
-    padding-left: 5vw;
+    padding: 2vw;
     text-align: left;
+    font-family: sans-serif;
+    color: #dcdcdc;
+}
+
+.news_content img {
+    max-width: 100%;
 }
